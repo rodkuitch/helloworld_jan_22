@@ -4,7 +4,7 @@ pipeline {
         maven 'M2_HOME'
     }
     environment {
-    registry = '844120932660.dkr.ecr.us-east-1.amazonaws.com/devops_repository'
+    registry = '706159635359.dkr.ecr.us-east-1.amazonaws.com/digital-currency'
     registryCredential = 'jenkins-ecr'
     dockerimage = ''
   }
